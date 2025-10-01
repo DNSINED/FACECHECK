@@ -1,0 +1,13 @@
+calibration:
+  temperature: 1.0  # needs fix
+weights:
+  p_model: 0.55
+  s_fft: 0.15
+  s_prov: 0.10
+  s_edge: 0.10
+  s_tabular: 0.10
+thresholds:
+  T_low: 0.35
+  T_high: 0.65
+stability:
+  delta_max: 0.10

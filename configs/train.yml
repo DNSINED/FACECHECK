@@ -1,0 +1,24 @@
+seed: 42
+device: auto  
+data:
+  train_manifest: "data/train.csv"   
+  val_manifest: "data/val.csv"
+  img_size: 384
+  num_workers: 4
+  batch_size: 24
+model:
+  backbone: "tf_efficientnet_b4_ns"
+  fusion:
+    d_tabular: 0
+trainer:
+  epochs: 12
+  lr: 0.0003
+  weight_decay: 0.02
+  label_smoothing: 0.05
+  early_stop_patience: 3
+robustness:
+  jpeg_q: 80
+  blur_sigma: 0.5
+  resize_scale: 0.8
+outputs:
+  dir: "runs/exp_debug"

@@ -1,0 +1,18 @@
+{
+  "profiles": [
+    {
+      "name": "Apple iPhone 12 Main",
+      "vendor": "Apple",
+      "model": "iPhone12,1",
+      "qt": [255, 255, 239, 239, 239, 239, 239, 239],
+      "notes": "Truncated sample array for demo only"
+    },
+    {
+      "name": "Nikon D750",
+      "vendor": "Nikon",
+      "model": "D750",
+      "qt": [4, 3, 3, 4, 3, 3, 4, 4],
+      "notes": "Truncated sample array for demo only"
+    }
+  ]
+}
